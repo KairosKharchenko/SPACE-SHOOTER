@@ -15,7 +15,7 @@ D:/Users/Admin/Desktop/unity projects/Space Shooter/SPACE-SHOOTER/SPACE SHOOTER
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50322
+64581
 Successfully changed project path to: D:/Users/Admin/Desktop/unity projects/Space Shooter/SPACE-SHOOTER/SPACE SHOOTER
 D:/Users/Admin/Desktop/unity projects/Space Shooter/SPACE-SHOOTER/SPACE SHOOTER
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,12 +47,12 @@ D:/Users/Admin/Desktop/unity projects/Space Shooter/SPACE-SHOOTER/SPACE SHOOTER
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [20100] Host "[IP] 192.168.1.203 [Port] 0 [Flags] 2 [Guid] 1329203320 [EditorId] 1329203320 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-0TP2OUV) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [8840] Host "[IP] 192.168.1.203 [Port] 0 [Flags] 2 [Guid] 3157917467 [EditorId] 3157917467 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-0TP2OUV) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [20100] Host "[IP] 192.168.1.203 [Port] 0 [Flags] 2 [Guid] 1329203320 [EditorId] 1329203320 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-0TP2OUV) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8840] Host "[IP] 192.168.1.203 [Port] 0 [Flags] 2 [Guid] 3157917467 [EditorId] 3157917467 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-0TP2OUV) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
-Refreshing native plugins compatible for Editor in 107.53 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 172.26 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.30f1 (b4360d7cdac4)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/Resources/UnitySubsystems
@@ -68,52 +68,52 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56372
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56796
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007104 seconds.
+Registered in 0.008226 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 421 ms
-Refreshing native plugins compatible for Editor in 129.91 ms, found 4 plugins.
+Android Extension - Scanning For ADB Devices 498 ms
+Refreshing native plugins compatible for Editor in 157.53 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.358 seconds
+- Completed reload, in  1.812 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2358ms)
-		BeginReloadAssembly (265ms)
+	ReloadAssembly (1812ms)
+		BeginReloadAssembly (182ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (1597ms)
-			LoadAssemblies (262ms)
+		EndReloadAssembly (1432ms)
+			LoadAssemblies (179ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (580ms)
+			SetupTypeCache (219ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (45ms)
-			SetupLoadedEditorAssemblies (918ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (1083ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (580ms)
+				InitializePlatformSupportModulesInManaged (687ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (130ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (133ms)
-				ProcessInitializeOnLoadMethodAttributes (73ms)
+				RefreshPlugins (158ms)
+				BeforeProcessingInitializeOnLoad (3ms)
+				ProcessInitializeOnLoadAttributes (157ms)
+				ProcessInitializeOnLoadMethodAttributes (78ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006751 seconds.
+Registered in 0.011374 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 165.54 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 161.58 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
@@ -136,43 +136,43 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 
 Mono: successfully reloaded assembly
-- Completed reload, in  4.202 seconds
+- Completed reload, in  3.813 seconds
 Domain Reload Profiling:
-	ReloadAssembly (4204ms)
-		BeginReloadAssembly (230ms)
+	ReloadAssembly (3816ms)
+		BeginReloadAssembly (237ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (13ms)
+			DisableScriptedObjects (14ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (3756ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (3366ms)
 			LoadAssemblies (175ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (683ms)
+			SetupTypeCache (814ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (108ms)
-			SetupLoadedEditorAssemblies (2694ms)
+			RebuildScriptCaches (133ms)
+			SetupLoadedEditorAssemblies (2122ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (40ms)
+				InitializePlatformSupportModulesInManaged (42ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (166ms)
-				BeforeProcessingInitializeOnLoad (186ms)
-				ProcessInitializeOnLoadAttributes (2193ms)
-				ProcessInitializeOnLoadMethodAttributes (99ms)
-				AfterProcessingInitializeOnLoad (10ms)
+				RefreshPlugins (162ms)
+				BeforeProcessingInitializeOnLoad (165ms)
+				ProcessInitializeOnLoadAttributes (1630ms)
+				ProcessInitializeOnLoadMethodAttributes (108ms)
+				AfterProcessingInitializeOnLoad (14ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
-Refreshing native plugins compatible for Editor in 0.81 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
+Refreshing native plugins compatible for Editor in 1.83 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3797 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 35 unused Assets / (46.4 KB). Loaded Objects now: 4261.
 Memory consumption went from 150.5 MB to 150.5 MB.
-Total: 20.162900 ms (FindLiveObjects: 0.367200 ms CreateObjectMapping: 0.325500 ms MarkObjects: 19.347400 ms  DeleteObjects: 0.121000 ms)
+Total: 22.100000 ms (FindLiveObjects: 0.408000 ms CreateObjectMapping: 0.350800 ms MarkObjects: 21.184300 ms  DeleteObjects: 0.154400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -189,92 +189,44 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1402.397777 seconds.
-  path: Assets/Sript/Tuttet Picker.asset
-  artifactKey: Guid(01562edec8d84b04285eba2c022a7122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 54968.389624 seconds.
+  path: Assets/SPRITES/Sounds/RoboGun5.wav
+  artifactKey: Guid(add6e6b59c850bb449cbfdb85d839cf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Sript/Tuttet Picker.asset using Guid(01562edec8d84b04285eba2c022a7122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df0d6d8dfc72da69812e496643b01e9b') in 0.142029 seconds 
-Number of asset objects unloaded after import = 1
+Start importing Assets/SPRITES/Sounds/RoboGun5.wav using Guid(add6e6b59c850bb449cbfdb85d839cf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce538fab800607f3253335d76fca1198') in 0.345139 seconds 
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 1137.829023 seconds.
-  path: Assets/SPRITES/Turrets
-  artifactKey: Guid(bf9c94f7102894542941fffbe8f964f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000052 seconds.
+  path: Assets/SPRITES/Sounds/RoboGun4.wav
+  artifactKey: Guid(7586c515267f7d54fad8f03795afee18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/SPRITES/Turrets using Guid(bf9c94f7102894542941fffbe8f964f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '353cad6a175c392dff3943c9fbaa986d') in 0.008495 seconds 
-Number of asset objects unloaded after import = 0
+Start importing Assets/SPRITES/Sounds/RoboGun4.wav using Guid(7586c515267f7d54fad8f03795afee18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd79e7ecfe91be1a2da7997f427eb1a04') in 0.082373 seconds 
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 68.694098 seconds.
-  path: Assets/Prefabs/Turrets/TurretB.prefab
-  artifactKey: Guid(a961d1325d2c0f14aa1a9dd64e5e803f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000053 seconds.
+  path: Assets/SPRITES/Interface/Crosshair.png
+  artifactKey: Guid(a29a2cbc099c15f42aed5c184a1f2eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Prefabs/Turrets/TurretB.prefab using Guid(a961d1325d2c0f14aa1a9dd64e5e803f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b8b8eee843903beb59030415c799b08') in 0.104020 seconds 
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 9.674093 seconds.
-  path: Assets/SPRITES/Effects/FlameA1.png
-  artifactKey: Guid(c5de5525d74b3e14fb83767834555637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SPRITES/Effects/FlameA1.png using Guid(c5de5525d74b3e14fb83767834555637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '806340e85c0bcfe932769fac961055af') in 0.234074 seconds 
+Start importing Assets/SPRITES/Interface/Crosshair.png using Guid(a29a2cbc099c15f42aed5c184a1f2eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b7bcea7d6ecc974c72b55f08345be58') in 0.093777 seconds 
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/SPRITES/Effects/ImpactA_2.png
-  artifactKey: Guid(1b13039cf900bb641a231ad12b65c20e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000028 seconds.
+  path: Assets/SPRITES/Sounds/RoboGun3.wav
+  artifactKey: Guid(32a0c2312ed6ff5409674fba49802509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/SPRITES/Effects/ImpactA_2.png using Guid(1b13039cf900bb641a231ad12b65c20e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbe23d547a181875fbee0405e6d06faf') in 0.041860 seconds 
-Number of asset objects unloaded after import = 3
+Start importing Assets/SPRITES/Sounds/RoboGun3.wav using Guid(32a0c2312ed6ff5409674fba49802509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd256d36cd8fb3464f8532cb85780964a') in 0.048792 seconds 
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/SPRITES/Effects/MuzzleC_0.png
-  artifactKey: Guid(66ec48e492ed02c4a96ee6d687c47b67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000020 seconds.
+  path: Assets/SPRITES/Sounds/RoboGun2.wav
+  artifactKey: Guid(bde149e7421bba244af221325d734173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/SPRITES/Effects/MuzzleC_0.png using Guid(66ec48e492ed02c4a96ee6d687c47b67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e80db17e67194330ded54a19a2fcb1b') in 0.075638 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/SPRITES/Effects/ImpactA_3.png
-  artifactKey: Guid(5d8b93cf0ecc79b4fb4a31518a772ba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SPRITES/Effects/ImpactA_3.png using Guid(5d8b93cf0ecc79b4fb4a31518a772ba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '104fdc03b0fda58f507233a15f7dc54c') in 0.052237 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/SPRITES/Effects/FlameB1.png
-  artifactKey: Guid(144114355ade845439ae7eea396a8ea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SPRITES/Effects/FlameB1.png using Guid(144114355ade845439ae7eea396a8ea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e66bc705326ccd10459296a03aebcfa5') in 0.088311 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/SPRITES/Effects/MuzzleF_1.png
-  artifactKey: Guid(038468946a540934c81b1177030503ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SPRITES/Effects/MuzzleF_1.png using Guid(038468946a540934c81b1177030503ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6566787f789f52814079b88b5fd81425') in 0.058276 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/SPRITES/Effects/ImpactA_1.png
-  artifactKey: Guid(31cac4b422437f2408fb74a916e215ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SPRITES/Effects/ImpactA_1.png using Guid(31cac4b422437f2408fb74a916e215ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2db7b5219ae5d31b0ec6e246b7efbc4') in 0.047303 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/SPRITES/Effects/MuzzleA_0.png
-  artifactKey: Guid(83788599d0cb0d043ac70f9cef54a0c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SPRITES/Effects/MuzzleA_0.png using Guid(83788599d0cb0d043ac70f9cef54a0c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26558432eaa2d253074b0fe4f2c6fcc4') in 0.059452 seconds 
-Number of asset objects unloaded after import = 3
+Start importing Assets/SPRITES/Sounds/RoboGun2.wav using Guid(bde149e7421bba244af221325d734173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da13405f74ef81dbe8368d0f4501ac25') in 0.085671 seconds 
+Number of asset objects unloaded after import = 2
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting

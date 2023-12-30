@@ -15,7 +15,7 @@ D:/Users/Admin/Desktop/unity projects/Space Shooter/SPACE-SHOOTER/SPACE SHOOTER
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-50482
+51174
 Successfully changed project path to: D:/Users/Admin/Desktop/unity projects/Space Shooter/SPACE-SHOOTER/SPACE SHOOTER
 D:/Users/Admin/Desktop/unity projects/Space Shooter/SPACE-SHOOTER/SPACE SHOOTER
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,12 +47,12 @@ D:/Users/Admin/Desktop/unity projects/Space Shooter/SPACE-SHOOTER/SPACE SHOOTER
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [2368] Host "[IP] 192.168.1.203 [Port] 0 [Flags] 2 [Guid] 2849572751 [EditorId] 2849572751 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-0TP2OUV) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [15700] Host "[IP] 192.168.1.203 [Port] 0 [Flags] 2 [Guid] 108905830 [EditorId] 108905830 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-0TP2OUV) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [2368] Host "[IP] 192.168.1.203 [Port] 0 [Flags] 2 [Guid] 2849572751 [EditorId] 2849572751 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-0TP2OUV) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [15700] Host "[IP] 192.168.1.203 [Port] 0 [Flags] 2 [Guid] 108905830 [EditorId] 108905830 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-0TP2OUV) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
-Refreshing native plugins compatible for Editor in 131.94 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 108.30 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.30f1 (b4360d7cdac4)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/Resources/UnitySubsystems
@@ -68,52 +68,52 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56184
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56056
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006195 seconds.
+Registered in 0.004936 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 359 ms
-Refreshing native plugins compatible for Editor in 112.88 ms, found 4 plugins.
+Android Extension - Scanning For ADB Devices 311 ms
+Refreshing native plugins compatible for Editor in 104.08 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.002 seconds
+- Completed reload, in  1.183 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2003ms)
-		BeginReloadAssembly (230ms)
+	ReloadAssembly (1184ms)
+		BeginReloadAssembly (107ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (1450ms)
-			LoadAssemblies (228ms)
+		EndReloadAssembly (959ms)
+			LoadAssemblies (106ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (557ms)
+			SetupTypeCache (147ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (39ms)
-			SetupLoadedEditorAssemblies (806ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (720ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (506ms)
+				InitializePlatformSupportModulesInManaged (448ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (113ms)
+				RefreshPlugins (104ms)
 				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (123ms)
-				ProcessInitializeOnLoadMethodAttributes (62ms)
+				ProcessInitializeOnLoadAttributes (112ms)
+				ProcessInitializeOnLoadMethodAttributes (52ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007709 seconds.
+Registered in 0.005383 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 214.09 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 126.90 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
@@ -136,43 +136,43 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 
 Mono: successfully reloaded assembly
-- Completed reload, in  5.151 seconds
+- Completed reload, in  2.203 seconds
 Domain Reload Profiling:
-	ReloadAssembly (5153ms)
-		BeginReloadAssembly (305ms)
+	ReloadAssembly (2205ms)
+		BeginReloadAssembly (136ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (15ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (43ms)
-		EndReloadAssembly (4590ms)
-			LoadAssemblies (233ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (1954ms)
+			LoadAssemblies (101ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (911ms)
+			SetupTypeCache (305ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (140ms)
-			SetupLoadedEditorAssemblies (3201ms)
+			RebuildScriptCaches (71ms)
+			SetupLoadedEditorAssemblies (1412ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (48ms)
+				InitializePlatformSupportModulesInManaged (22ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (214ms)
-				BeforeProcessingInitializeOnLoad (185ms)
-				ProcessInitializeOnLoadAttributes (2627ms)
-				ProcessInitializeOnLoadMethodAttributes (113ms)
-				AfterProcessingInitializeOnLoad (14ms)
+				RefreshPlugins (127ms)
+				BeforeProcessingInitializeOnLoad (100ms)
+				ProcessInitializeOnLoadAttributes (1100ms)
+				ProcessInitializeOnLoadMethodAttributes (55ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (16ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.15 seconds
-Refreshing native plugins compatible for Editor in 1.17 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.79 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3797 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 35 unused Assets / (46.4 KB). Loaded Objects now: 4262.
-Memory consumption went from 150.5 MB to 150.5 MB.
-Total: 22.370400 ms (FindLiveObjects: 0.548800 ms CreateObjectMapping: 0.429300 ms MarkObjects: 21.245900 ms  DeleteObjects: 0.144200 ms)
+Memory consumption went from 150.6 MB to 150.5 MB.
+Total: 15.482000 ms (FindLiveObjects: 0.331300 ms CreateObjectMapping: 0.277500 ms MarkObjects: 14.793000 ms  DeleteObjects: 0.078800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -188,21 +188,13 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 984.471616 seconds.
-  path: Assets/Prefabs/Bullets/BulletA_1.prefab
-  artifactKey: Guid(37fe12d00002e43488194292591b2cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Prefabs/Bullets/BulletA_1.prefab using Guid(37fe12d00002e43488194292591b2cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '392be03668323529fda2f8b759b00808') in 1.342853 seconds 
-Number of asset objects unloaded after import = 15
-========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005073 seconds.
+Registered in 0.007905 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.88 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 0.84 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Cannot connect to Unity Package Manager local server
@@ -224,40 +216,40 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 
 Mono: successfully reloaded assembly
-- Completed reload, in  2.463 seconds
+- Completed reload, in  2.498 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2464ms)
-		BeginReloadAssembly (243ms)
+	ReloadAssembly (2499ms)
+		BeginReloadAssembly (231ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (10ms)
+			DisableScriptedObjects (11ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (82ms)
-		EndReloadAssembly (2075ms)
-			LoadAssemblies (146ms)
+			CreateAndSetChildDomain (54ms)
+		EndReloadAssembly (2096ms)
+			LoadAssemblies (139ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (414ms)
+			SetupTypeCache (401ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (82ms)
-			SetupLoadedEditorAssemblies (1068ms)
+			RebuildScriptCaches (64ms)
+			SetupLoadedEditorAssemblies (1178ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (30ms)
+				InitializePlatformSupportModulesInManaged (28ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (101ms)
-				ProcessInitializeOnLoadAttributes (866ms)
-				ProcessInitializeOnLoadMethodAttributes (61ms)
-				AfterProcessingInitializeOnLoad (8ms)
+				BeforeProcessingInitializeOnLoad (95ms)
+				ProcessInitializeOnLoadAttributes (944ms)
+				ProcessInitializeOnLoadMethodAttributes (94ms)
+				AfterProcessingInitializeOnLoad (15ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 1.15 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3785 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (21.9 KB). Loaded Objects now: 4273.
-Memory consumption went from 149.5 MB to 149.4 MB.
-Total: 16.653000 ms (FindLiveObjects: 0.378100 ms CreateObjectMapping: 0.310300 ms MarkObjects: 15.913100 ms  DeleteObjects: 0.049800 ms)
+Unloading 24 unused Assets / (21.9 KB). Loaded Objects now: 4266.
+Memory consumption went from 149.3 MB to 149.3 MB.
+Total: 18.118400 ms (FindLiveObjects: 0.473000 ms CreateObjectMapping: 0.420700 ms MarkObjects: 17.185500 ms  DeleteObjects: 0.037300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -275,11 +267,11 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004522 seconds.
+Registered in 0.004575 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.73 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 0.69 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Cannot connect to Unity Package Manager local server
@@ -301,202 +293,40 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 
 Mono: successfully reloaded assembly
-- Completed reload, in  2.197 seconds
+- Completed reload, in  2.204 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2198ms)
-		BeginReloadAssembly (200ms)
+	ReloadAssembly (2204ms)
+		BeginReloadAssembly (191ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (11ms)
+			DisableScriptedObjects (10ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (47ms)
-		EndReloadAssembly (1855ms)
-			LoadAssemblies (124ms)
+			CreateAndSetChildDomain (45ms)
+		EndReloadAssembly (1877ms)
+			LoadAssemblies (128ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (327ms)
+			SetupTypeCache (352ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (58ms)
-			SetupLoadedEditorAssemblies (1091ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (1073ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (28ms)
+				InitializePlatformSupportModulesInManaged (22ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (82ms)
-				ProcessInitializeOnLoadAttributes (898ms)
-				ProcessInitializeOnLoadMethodAttributes (74ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.98 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3785 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (21.9 KB). Loaded Objects now: 4277.
-Memory consumption went from 149.5 MB to 149.4 MB.
-Total: 15.069900 ms (FindLiveObjects: 0.382100 ms CreateObjectMapping: 0.376600 ms MarkObjects: 14.275400 ms  DeleteObjects: 0.034100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 853.840457 seconds.
-  path: Assets/SPRITES/Spacecraft/Enemy/Mine.png
-  artifactKey: Guid(b034ba5e335aeac49a102b35ad2c13f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SPRITES/Spacecraft/Enemy/Mine.png using Guid(b034ba5e335aeac49a102b35ad2c13f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '571a1f0238283e96f0bbc7423c1b2515') in 0.133268 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005227 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.81 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-System.Exception: Error! Visual Scripting: couldn't find visual scripting package
-  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
-  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
-  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:33 
-  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:48 
-  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:208 
-  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32 
-  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76 
-  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114 
-  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x0000d] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:33 
-  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.435 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2437ms)
-		BeginReloadAssembly (219ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (11ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (53ms)
-		EndReloadAssembly (2080ms)
-			LoadAssemblies (131ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (337ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (68ms)
-			SetupLoadedEditorAssemblies (1241ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (25ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (91ms)
-				ProcessInitializeOnLoadAttributes (1001ms)
-				ProcessInitializeOnLoadMethodAttributes (110ms)
-				AfterProcessingInitializeOnLoad (12ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (18ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.35 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3785 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (21.9 KB). Loaded Objects now: 4284.
-Memory consumption went from 149.5 MB to 149.5 MB.
-Total: 27.841700 ms (FindLiveObjects: 0.479000 ms CreateObjectMapping: 0.514400 ms MarkObjects: 26.795800 ms  DeleteObjects: 0.050500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006240 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.72 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-System.Exception: Error! Visual Scripting: couldn't find visual scripting package
-  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
-  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
-  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:33 
-  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:48 
-  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:208 
-  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32 
-  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76 
-  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114 
-  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x0000d] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:33 
-  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.848 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2849ms)
-		BeginReloadAssembly (325ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (52ms)
-		EndReloadAssembly (2372ms)
-			LoadAssemblies (242ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (698ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (54ms)
-			SetupLoadedEditorAssemblies (1072ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (35ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (85ms)
-				ProcessInitializeOnLoadAttributes (886ms)
-				ProcessInitializeOnLoadMethodAttributes (58ms)
-				AfterProcessingInitializeOnLoad (6ms)
+				BeforeProcessingInitializeOnLoad (84ms)
+				ProcessInitializeOnLoadAttributes (900ms)
+				ProcessInitializeOnLoadMethodAttributes (57ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.25 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 0.90 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3785 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (21.9 KB). Loaded Objects now: 4288.
-Memory consumption went from 149.5 MB to 149.5 MB.
-Total: 20.861300 ms (FindLiveObjects: 0.354600 ms CreateObjectMapping: 0.304100 ms MarkObjects: 20.164000 ms  DeleteObjects: 0.037100 ms)
+Unloading 24 unused Assets / (21.9 KB). Loaded Objects now: 4270.
+Memory consumption went from 149.3 MB to 149.3 MB.
+Total: 14.460000 ms (FindLiveObjects: 0.345200 ms CreateObjectMapping: 0.276700 ms MarkObjects: 13.804100 ms  DeleteObjects: 0.032400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -514,11 +344,11 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.009063 seconds.
+Registered in 0.008852 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.02 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 0.83 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Cannot connect to Unity Package Manager local server
@@ -540,40 +370,117 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 
 Mono: successfully reloaded assembly
-- Completed reload, in  3.341 seconds
+- Completed reload, in  2.692 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3342ms)
-		BeginReloadAssembly (358ms)
+	ReloadAssembly (2693ms)
+		BeginReloadAssembly (288ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (72ms)
+		EndReloadAssembly (2224ms)
+			LoadAssemblies (187ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (464ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (119ms)
+			SetupLoadedEditorAssemblies (1165ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (31ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (100ms)
+				ProcessInitializeOnLoadAttributes (936ms)
+				ProcessInitializeOnLoadMethodAttributes (88ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.04 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3785 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (22.0 KB). Loaded Objects now: 4274.
+Memory consumption went from 149.3 MB to 149.3 MB.
+Total: 16.995800 ms (FindLiveObjects: 0.484900 ms CreateObjectMapping: 0.459400 ms MarkObjects: 16.014600 ms  DeleteObjects: 0.035000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005156 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.27 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:33 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:48 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:208 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x0000d] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:33 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  4.233 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4235ms)
+		BeginReloadAssembly (487ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (16ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (76ms)
-		EndReloadAssembly (2761ms)
-			LoadAssemblies (237ms)
+			CreateAndSetChildDomain (79ms)
+		EndReloadAssembly (3503ms)
+			LoadAssemblies (358ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (484ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (103ms)
-			SetupLoadedEditorAssemblies (1491ms)
+			SetupTypeCache (1067ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (98ms)
+			SetupLoadedEditorAssemblies (1499ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (39ms)
+				InitializePlatformSupportModulesInManaged (41ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (115ms)
-				ProcessInitializeOnLoadAttributes (1197ms)
-				ProcessInitializeOnLoadMethodAttributes (120ms)
-				AfterProcessingInitializeOnLoad (17ms)
-				EditorAssembliesLoaded (1ms)
+				BeforeProcessingInitializeOnLoad (128ms)
+				ProcessInitializeOnLoadAttributes (1230ms)
+				ProcessInitializeOnLoadMethodAttributes (86ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (22ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.42 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 0.94 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3785 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (22.0 KB). Loaded Objects now: 4292.
-Memory consumption went from 149.5 MB to 149.5 MB.
-Total: 29.899600 ms (FindLiveObjects: 0.479100 ms CreateObjectMapping: 0.424200 ms MarkObjects: 28.924900 ms  DeleteObjects: 0.069100 ms)
+Unloading 24 unused Assets / (21.9 KB). Loaded Objects now: 4278.
+Memory consumption went from 149.4 MB to 149.3 MB.
+Total: 23.658700 ms (FindLiveObjects: 0.529200 ms CreateObjectMapping: 0.527600 ms MarkObjects: 22.543900 ms  DeleteObjects: 0.055500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -591,84 +498,7 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.008768 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.73 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-System.Exception: Error! Visual Scripting: couldn't find visual scripting package
-  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
-  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
-  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:33 
-  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:48 
-  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:208 
-  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32 
-  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76 
-  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114 
-  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x0000d] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:33 
-  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-Mono: successfully reloaded assembly
-- Completed reload, in  3.330 seconds
-Domain Reload Profiling:
-	ReloadAssembly (3332ms)
-		BeginReloadAssembly (337ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (14ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (77ms)
-		EndReloadAssembly (2765ms)
-			LoadAssemblies (225ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (514ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (85ms)
-			SetupLoadedEditorAssemblies (1504ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (38ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (130ms)
-				ProcessInitializeOnLoadAttributes (1218ms)
-				ProcessInitializeOnLoadMethodAttributes (100ms)
-				AfterProcessingInitializeOnLoad (15ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (20ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.66 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3785 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (21.9 KB). Loaded Objects now: 4296.
-Memory consumption went from 149.5 MB to 149.5 MB.
-Total: 22.537000 ms (FindLiveObjects: 0.523500 ms CreateObjectMapping: 0.580200 ms MarkObjects: 21.384600 ms  DeleteObjects: 0.046900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007387 seconds.
+Registered in 0.006740 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
@@ -694,348 +524,40 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 
 Mono: successfully reloaded assembly
-- Completed reload, in  3.043 seconds
+- Completed reload, in  2.981 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3044ms)
-		BeginReloadAssembly (282ms)
+	ReloadAssembly (2983ms)
+		BeginReloadAssembly (303ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (16ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (64ms)
-		EndReloadAssembly (2550ms)
-			LoadAssemblies (177ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (498ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (92ms)
-			SetupLoadedEditorAssemblies (1329ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (39ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (133ms)
-				ProcessInitializeOnLoadAttributes (1046ms)
-				ProcessInitializeOnLoadMethodAttributes (95ms)
-				AfterProcessingInitializeOnLoad (13ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (15ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.18 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3785 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (22.0 KB). Loaded Objects now: 4300.
-Memory consumption went from 149.6 MB to 149.5 MB.
-Total: 20.873500 ms (FindLiveObjects: 0.588300 ms CreateObjectMapping: 0.621800 ms MarkObjects: 19.614500 ms  DeleteObjects: 0.046100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005214 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.74 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-System.Exception: Error! Visual Scripting: couldn't find visual scripting package
-  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
-  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
-  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:33 
-  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:48 
-  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:208 
-  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32 
-  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76 
-  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114 
-  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x0000d] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:33 
-  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.393 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2394ms)
-		BeginReloadAssembly (226ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (10ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (57ms)
-		EndReloadAssembly (2040ms)
-			LoadAssemblies (140ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (398ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (60ms)
-			SetupLoadedEditorAssemblies (1125ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (27ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (96ms)
-				ProcessInitializeOnLoadAttributes (906ms)
-				ProcessInitializeOnLoadMethodAttributes (85ms)
-				AfterProcessingInitializeOnLoad (10ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (14ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.92 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3785 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (21.9 KB). Loaded Objects now: 4304.
-Memory consumption went from 149.6 MB to 149.5 MB.
-Total: 16.314200 ms (FindLiveObjects: 0.389900 ms CreateObjectMapping: 0.413600 ms MarkObjects: 15.468500 ms  DeleteObjects: 0.040800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007753 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.10 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-System.Exception: Error! Visual Scripting: couldn't find visual scripting package
-  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
-  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
-  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:33 
-  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:48 
-  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:208 
-  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32 
-  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76 
-  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114 
-  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x0000d] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:33 
-  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-Mono: successfully reloaded assembly
-- Completed reload, in  3.188 seconds
-Domain Reload Profiling:
-	ReloadAssembly (3190ms)
-		BeginReloadAssembly (326ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (18ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (80ms)
-		EndReloadAssembly (2647ms)
-			LoadAssemblies (201ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (497ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (101ms)
-			SetupLoadedEditorAssemblies (1415ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (39ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (116ms)
-				ProcessInitializeOnLoadAttributes (1128ms)
-				ProcessInitializeOnLoadMethodAttributes (114ms)
-				AfterProcessingInitializeOnLoad (16ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (21ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.64 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3785 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (22.0 KB). Loaded Objects now: 4308.
-Memory consumption went from 149.6 MB to 149.6 MB.
-Total: 29.471900 ms (FindLiveObjects: 0.469400 ms CreateObjectMapping: 0.445400 ms MarkObjects: 28.483400 ms  DeleteObjects: 0.071300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010000 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.77 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-System.Exception: Error! Visual Scripting: couldn't find visual scripting package
-  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
-  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
-  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:33 
-  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:48 
-  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:208 
-  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32 
-  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76 
-  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114 
-  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x0000d] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:33 
-  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-Mono: successfully reloaded assembly
-- Completed reload, in  3.394 seconds
-Domain Reload Profiling:
-	ReloadAssembly (3395ms)
-		BeginReloadAssembly (326ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (16ms)
+			DisableScriptedObjects (15ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (76ms)
-		EndReloadAssembly (2832ms)
-			LoadAssemblies (208ms)
+		EndReloadAssembly (2485ms)
+			LoadAssemblies (186ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (503ms)
+			SetupTypeCache (466ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (92ms)
-			SetupLoadedEditorAssemblies (1568ms)
+			RebuildScriptCaches (100ms)
+			SetupLoadedEditorAssemblies (1306ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (46ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (154ms)
-				ProcessInitializeOnLoadAttributes (1254ms)
-				ProcessInitializeOnLoadMethodAttributes (99ms)
-				AfterProcessingInitializeOnLoad (12ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (15ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.93 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3785 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (22.0 KB). Loaded Objects now: 4312.
-Memory consumption went from 149.6 MB to 149.6 MB.
-Total: 23.313800 ms (FindLiveObjects: 0.656900 ms CreateObjectMapping: 0.603000 ms MarkObjects: 21.982600 ms  DeleteObjects: 0.069100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007482 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.05 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-System.Exception: Error! Visual Scripting: couldn't find visual scripting package
-  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
-  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
-  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:33 
-  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:48 
-  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:208 
-  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32 
-  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76 
-  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114 
-  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x0000d] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:33 
-  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-Mono: successfully reloaded assembly
-- Completed reload, in  3.324 seconds
-Domain Reload Profiling:
-	ReloadAssembly (3325ms)
-		BeginReloadAssembly (349ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (16ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (71ms)
-		EndReloadAssembly (2757ms)
-			LoadAssemblies (228ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (504ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (104ms)
-			SetupLoadedEditorAssemblies (1497ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (43ms)
+				InitializePlatformSupportModulesInManaged (44ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (116ms)
-				ProcessInitializeOnLoadAttributes (1203ms)
-				ProcessInitializeOnLoadMethodAttributes (119ms)
-				AfterProcessingInitializeOnLoad (14ms)
+				BeforeProcessingInitializeOnLoad (146ms)
+				ProcessInitializeOnLoadAttributes (1023ms)
+				ProcessInitializeOnLoadMethodAttributes (80ms)
+				AfterProcessingInitializeOnLoad (10ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (17ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.79 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 1.42 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3785 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (21.9 KB). Loaded Objects now: 4316.
-Memory consumption went from 149.6 MB to 149.6 MB.
-Total: 24.824600 ms (FindLiveObjects: 0.469900 ms CreateObjectMapping: 0.432000 ms MarkObjects: 23.877700 ms  DeleteObjects: 0.043100 ms)
+Unloading 24 unused Assets / (21.9 KB). Loaded Objects now: 4282.
+Memory consumption went from 149.4 MB to 149.4 MB.
+Total: 19.331000 ms (FindLiveObjects: 0.555800 ms CreateObjectMapping: 0.436400 ms MarkObjects: 18.296700 ms  DeleteObjects: 0.039600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -1052,597 +574,134 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 5221.287581 seconds.
-  path: Assets/SPRITES/Interface/Buttons/Grey/NUMBERS/01/01_2.png
-  artifactKey: Guid(cecb3980942bf4d4484ecff2404590af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 6662.768255 seconds.
+  path: Assets/SPRITES/Effects/ImpactA_4.png
+  artifactKey: Guid(20bec2392c5f40d4d8860bb48228ac2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/SPRITES/Interface/Buttons/Grey/NUMBERS/01/01_2.png using Guid(cecb3980942bf4d4484ecff2404590af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c5fbb40ba9ad9c8d5fb0670ba3f2b1b') in 0.498205 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 4.675356 seconds.
-  path: Assets/SPRITES/Interface/Buttons/Grey/NUMBERS/02/02_2.png
-  artifactKey: Guid(2d05f087f11e6224fa7b9f322b7bc071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SPRITES/Interface/Buttons/Grey/NUMBERS/02/02_2.png using Guid(2d05f087f11e6224fa7b9f322b7bc071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43830c9cfd7d9a37983dddcf0017d690') in 0.155166 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/SPRITES/Interface/Buttons/Grey/NUMBERS/02/02_3.png
-  artifactKey: Guid(e66c30936ae5db9428e24210e69d9ac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SPRITES/Interface/Buttons/Grey/NUMBERS/02/02_3.png using Guid(e66c30936ae5db9428e24210e69d9ac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73e2d8c77bda4c8bd680cbac4cb6509a') in 0.061772 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/SPRITES/Interface/Buttons/Grey/NUMBERS/02/02_4.png
-  artifactKey: Guid(7943b88a42b6e174bbc34580f12b7ce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SPRITES/Interface/Buttons/Grey/NUMBERS/02/02_4.png using Guid(7943b88a42b6e174bbc34580f12b7ce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95cc859a9edf79fcb8d0ed5a16718de9') in 0.054951 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 1.805088 seconds.
-  path: Assets/SPRITES/Interface/Buttons/Grey/NUMBERS/03/03_4.png
-  artifactKey: Guid(3087bfad1a0862b4daaddec2a077fbbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SPRITES/Interface/Buttons/Grey/NUMBERS/03/03_4.png using Guid(3087bfad1a0862b4daaddec2a077fbbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6685936004b57406d012f463e371408') in 0.063274 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/SPRITES/Interface/Buttons/Grey/NUMBERS/03/03_5.png
-  artifactKey: Guid(72a26db24c5231749948ccc40fbecfde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SPRITES/Interface/Buttons/Grey/NUMBERS/03/03_5.png using Guid(72a26db24c5231749948ccc40fbecfde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9b2d573b041f9f58a6f9d3ec9ffc911') in 0.047717 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.417265 seconds.
-  path: Assets/SPRITES/Interface/Buttons/Grey/NUMBERS/04/04_3.png
-  artifactKey: Guid(f2c3f38ee8537bd4989c85aba6fb25b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SPRITES/Interface/Buttons/Grey/NUMBERS/04/04_3.png using Guid(f2c3f38ee8537bd4989c85aba6fb25b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52ba27ae8f2bb7c85553f3b7b2e4225a') in 0.031671 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.032455 seconds.
-  path: Assets/SPRITES/Interface/Buttons/Grey/NUMBERS/04/04_5.png
-  artifactKey: Guid(a90cfce0a6390794399983cc7a2f82b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SPRITES/Interface/Buttons/Grey/NUMBERS/04/04_5.png using Guid(a90cfce0a6390794399983cc7a2f82b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '579f6852f15a10f3386730d4d370483d') in 0.035387 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/SPRITES/Interface/Buttons/Grey/NUMBERS/05/05_1.png
-  artifactKey: Guid(0e8138c165cb1f443ae8b59fddee210d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SPRITES/Interface/Buttons/Grey/NUMBERS/05/05_1.png using Guid(0e8138c165cb1f443ae8b59fddee210d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb44e9430068f5b80db890bf9db56da6') in 0.041958 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.050669 seconds.
-  path: Assets/SPRITES/Interface/Buttons/Grey/NUMBERS/05/05_3.png
-  artifactKey: Guid(ccdef5816d7c21d469aaf6de4c520387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SPRITES/Interface/Buttons/Grey/NUMBERS/05/05_3.png using Guid(ccdef5816d7c21d469aaf6de4c520387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41726870255da357241577a54edd1878') in 0.061756 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.250166 seconds.
-  path: Assets/SPRITES/Interface/Buttons/Grey/NUMBERS/05/05_6.png
-  artifactKey: Guid(dc0409684fdf97642b7a70393013c80c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SPRITES/Interface/Buttons/Grey/NUMBERS/05/05_6.png using Guid(dc0409684fdf97642b7a70393013c80c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98e5585c0c2102a24d912de1bca74b2d') in 0.040724 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.025689 seconds.
-  path: Assets/SPRITES/Interface/Buttons/Grey/NUMBERS/06/06_2.png
-  artifactKey: Guid(2d8acabe92ef92140af966ce8cadf586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SPRITES/Interface/Buttons/Grey/NUMBERS/06/06_2.png using Guid(2d8acabe92ef92140af966ce8cadf586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22e6c609be55dff265eb2bfdd9be9464') in 0.055775 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/SPRITES/Interface/Buttons/Grey/NUMBERS/06/06_3.png
-  artifactKey: Guid(331c1b196b1c6ca4f83c37ad93f666d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SPRITES/Interface/Buttons/Grey/NUMBERS/06/06_3.png using Guid(331c1b196b1c6ca4f83c37ad93f666d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb93d9fd531f26c85a06ab9112fdc6ad') in 0.054311 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/SPRITES/Interface/Buttons/Grey/NUMBERS/06/06_5.png
-  artifactKey: Guid(1049ae421f8b6954892dae2442b4a3fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SPRITES/Interface/Buttons/Grey/NUMBERS/06/06_5.png using Guid(1049ae421f8b6954892dae2442b4a3fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a887ba49c8c5f61d2619981458927aa') in 0.046554 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.228008 seconds.
-  path: Assets/SPRITES/Interface/Buttons/Grey/NUMBERS/07/07_2.png
-  artifactKey: Guid(db670e1147d48f34b96a76642846c847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SPRITES/Interface/Buttons/Grey/NUMBERS/07/07_2.png using Guid(db670e1147d48f34b96a76642846c847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acafc3a5fb5f5b35c2d66463671a31b6') in 0.169836 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/SPRITES/Interface/Buttons/Grey/NUMBERS/08/08_2.png
-  artifactKey: Guid(c54365ab8cf59c24b8c75f3ffb79bdc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SPRITES/Interface/Buttons/Grey/NUMBERS/08/08_2.png using Guid(c54365ab8cf59c24b8c75f3ffb79bdc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a375aa9aba97ffccecb8f91b85069ece') in 0.033189 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/SPRITES/Interface/Buttons/Grey/NUMBERS/07/07_3.png
-  artifactKey: Guid(18d079d2aa368274c9662345f834adf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SPRITES/Interface/Buttons/Grey/NUMBERS/07/07_3.png using Guid(18d079d2aa368274c9662345f834adf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec67b8f47c012ac7881c28e95cbd5203') in 0.033714 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000106 seconds.
-  path: Assets/SPRITES/Interface/Buttons/Grey/NUMBERS/07/07_6.png
-  artifactKey: Guid(d2409ca62a2de5a43840797b0c4521ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SPRITES/Interface/Buttons/Grey/NUMBERS/07/07_6.png using Guid(d2409ca62a2de5a43840797b0c4521ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11d3890ed4312c20708a2a98b6b7caf5') in 0.038255 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/SPRITES/Interface/Buttons/Grey/NUMBERS/08/08_5.png
-  artifactKey: Guid(b666cc151298fb944954e1a972997761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SPRITES/Interface/Buttons/Grey/NUMBERS/08/08_5.png using Guid(b666cc151298fb944954e1a972997761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8e6620f24627b0634fef17435813209') in 0.035742 seconds 
+Start importing Assets/SPRITES/Effects/ImpactA_4.png using Guid(20bec2392c5f40d4d8860bb48228ac2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b47bbbb12238b130c74543e0971a577f') in 0.323248 seconds 
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000046 seconds.
-  path: Assets/SPRITES/Interface/Buttons/Grey/NUMBERS/09/09_1.png
-  artifactKey: Guid(2e369c42fa526d74989d772d46b9b66e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  path: Assets/SPRITES/Effects/MuzzleA_1.png
+  artifactKey: Guid(04b9f5952cbf79f45bdd1b68ce14bc61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/SPRITES/Interface/Buttons/Grey/NUMBERS/09/09_1.png using Guid(2e369c42fa526d74989d772d46b9b66e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4eee1e5c78d4cdb80ea62a199b23ee3') in 0.121713 seconds 
+Start importing Assets/SPRITES/Effects/MuzzleA_1.png using Guid(04b9f5952cbf79f45bdd1b68ce14bc61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '493a66d51c5d15e5aa3d6717cf2166db') in 0.091888 seconds 
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/SPRITES/Interface/Buttons/Grey/NUMBERS/09/09_4.png
-  artifactKey: Guid(75f6f33245a21984baa9e2970a18a0d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000075 seconds.
+  path: Assets/SPRITES/Effects/MuzzleC_1.png
+  artifactKey: Guid(06b73ec2d54bc074589587b623fc49b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/SPRITES/Interface/Buttons/Grey/NUMBERS/09/09_4.png using Guid(75f6f33245a21984baa9e2970a18a0d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a1d8ac68a87fc0c47220ffac58a86ff') in 0.051593 seconds 
+Start importing Assets/SPRITES/Effects/MuzzleC_1.png using Guid(06b73ec2d54bc074589587b623fc49b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7e0de6c2384e716ece51e95b3617e5d') in 0.066071 seconds 
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/SPRITES/Interface/Buttons/Grey/NUMBERS/10/10_6.png
-  artifactKey: Guid(1ad1f0e83084c9047be32e18d47b51ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 12.373553 seconds.
+  path: Assets/SPRITES/Effects/FlameB1.png
+  artifactKey: Guid(144114355ade845439ae7eea396a8ea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/SPRITES/Interface/Buttons/Grey/NUMBERS/10/10_6.png using Guid(1ad1f0e83084c9047be32e18d47b51ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '534546bed8216313989e19f6e8b02e3f') in 0.041533 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/SPRITES/Interface/Buttons/Grey/NUMBERS/09/09_6.png
-  artifactKey: Guid(f4c66b64b845f6045aacf059f2781d88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SPRITES/Interface/Buttons/Grey/NUMBERS/09/09_6.png using Guid(f4c66b64b845f6045aacf059f2781d88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd018798cc98168cb4ab2bad206bbebdc') in 0.036334 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/SPRITES/Interface/Buttons/Grey/NUMBERS/08/08_6.png
-  artifactKey: Guid(a26e8b9368ca58f4e974c05e7332a751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SPRITES/Interface/Buttons/Grey/NUMBERS/08/08_6.png using Guid(a26e8b9368ca58f4e974c05e7332a751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf77e654d5316c5bea7d4925c2f78a80') in 0.065656 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/SPRITES/Interface/Buttons/Grey/NUMBERS/10/10_1.png
-  artifactKey: Guid(661684da6f1b87f44abe21ef4514e341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SPRITES/Interface/Buttons/Grey/NUMBERS/10/10_1.png using Guid(661684da6f1b87f44abe21ef4514e341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5307e7c2607cc586b1329db0105d1c9') in 0.035253 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/SPRITES/Interface/Buttons/Grey/NUMBERS/10/10_3.png
-  artifactKey: Guid(600d85587d37da542b48836789d02121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SPRITES/Interface/Buttons/Grey/NUMBERS/10/10_3.png using Guid(600d85587d37da542b48836789d02121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bd23f7e500500bb35c4b01091f23e39') in 0.047735 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/SPRITES/Interface/Buttons/Grey/NUMBERS/09/09_2.png
-  artifactKey: Guid(816ccc9754705b142bb85084ca4cc4ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SPRITES/Interface/Buttons/Grey/NUMBERS/09/09_2.png using Guid(816ccc9754705b142bb85084ca4cc4ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a89227516e18b912337e2371c71a7aa') in 0.311918 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 1.556795 seconds.
-  path: Assets/SPRITES/Interface/Buttons/Blue/BACK/BACK_D1.png
-  artifactKey: Guid(d2b46fe2d9e8ee04c99a2f8ad65b4efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SPRITES/Interface/Buttons/Blue/BACK/BACK_D1.png using Guid(d2b46fe2d9e8ee04c99a2f8ad65b4efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3657f6eff81ae9520de557868721b35') in 0.030901 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/SPRITES/Interface/Buttons/Grey/BACK/BACK_D1.png
-  artifactKey: Guid(6787376eda2747144b69c58abe4071c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SPRITES/Interface/Buttons/Grey/BACK/BACK_D1.png using Guid(6787376eda2747144b69c58abe4071c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e597dc38238c195fdc379b7a821974a') in 0.047147 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/SPRITES/Interface/Buttons/Grey/BACK/BACK_D2.png
-  artifactKey: Guid(7a0fc7021aabbff42bc9db3ec0994974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SPRITES/Interface/Buttons/Grey/BACK/BACK_D2.png using Guid(7a0fc7021aabbff42bc9db3ec0994974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23e5c56cccae2a77bffcd538774f61ad') in 0.034653 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/SPRITES/Interface/Buttons/Red/BACK/BACK_D2.png
-  artifactKey: Guid(e9312c57ba8edcb438e181c131a3af7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SPRITES/Interface/Buttons/Red/BACK/BACK_D2.png using Guid(e9312c57ba8edcb438e181c131a3af7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aea419f5ceb19894833e2e219709e7f5') in 0.042377 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/SPRITES/Interface/Buttons/Green/BACK/BACK_D1.png
-  artifactKey: Guid(fb53a155f56ed144e966a6794b57b2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SPRITES/Interface/Buttons/Green/BACK/BACK_D1.png using Guid(fb53a155f56ed144e966a6794b57b2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89ee277ca5f3e8d8a694cac98e23b17c') in 0.037103 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/SPRITES/Interface/Buttons/Green/BACK/BACK_D2.png
-  artifactKey: Guid(e8ff9accdb4e5284eaedcce28900f47a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SPRITES/Interface/Buttons/Green/BACK/BACK_D2.png using Guid(e8ff9accdb4e5284eaedcce28900f47a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf03d284ac2206dd13d05d3911e99ca1') in 0.044188 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 1.399988 seconds.
-  path: Assets/SPRITES/Interface/Buttons/Grey/BACK/BACK_L1.png
-  artifactKey: Guid(107e31fc1e48fa14389582e1c034752b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SPRITES/Interface/Buttons/Grey/BACK/BACK_L1.png using Guid(107e31fc1e48fa14389582e1c034752b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e069c71734213d7aa6ababadcf05c776') in 0.172127 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.154728 seconds.
-  path: Assets/SPRITES/Interface/Buttons/Green/BACK/BACK_L1.png
-  artifactKey: Guid(f6345ad463ba68b42b34bc1684855718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SPRITES/Interface/Buttons/Green/BACK/BACK_L1.png using Guid(f6345ad463ba68b42b34bc1684855718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f51ec99c75c04e40c7b99edf1fe685cb') in 0.046927 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.022340 seconds.
-  path: Assets/SPRITES/Interface/Buttons/Orange/BACK/BACK_L2.png
-  artifactKey: Guid(09beb7a0e12cbee4a83e4f0f62386922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SPRITES/Interface/Buttons/Orange/BACK/BACK_L2.png using Guid(09beb7a0e12cbee4a83e4f0f62386922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eef853e5d834f14ad1278496c99e4b6e') in 0.032982 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/SPRITES/Interface/Buttons/Blue/BACK/BACK_L2.png
-  artifactKey: Guid(6e58bb9242a182a439f9784d59786875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SPRITES/Interface/Buttons/Blue/BACK/BACK_L2.png using Guid(6e58bb9242a182a439f9784d59786875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f8f4ebe6704838a12babc8bdfb284f8') in 0.036629 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.205785 seconds.
-  path: Assets/SPRITES/Interface/Buttons/Orange/BACK/BACK_N1.png
-  artifactKey: Guid(59d656bfb3c52c943a04480542c3f3e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SPRITES/Interface/Buttons/Orange/BACK/BACK_N1.png using Guid(59d656bfb3c52c943a04480542c3f3e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd910d91dc65c81a1727fa8dfe85948a4') in 0.092008 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/SPRITES/Interface/Buttons/Red/BACK/BACK_N1.png
-  artifactKey: Guid(2528da8e62b864744a66bc60ed08a182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SPRITES/Interface/Buttons/Red/BACK/BACK_N1.png using Guid(2528da8e62b864744a66bc60ed08a182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5542528ae2037691d3e6d80b5a1a5e43') in 0.034581 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000083 seconds.
-  path: Assets/SPRITES/Interface/Buttons/Grey/BACK/BACK_N1.png
-  artifactKey: Guid(1883aaab92dd4aa438e9df325eee1a47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SPRITES/Interface/Buttons/Grey/BACK/BACK_N1.png using Guid(1883aaab92dd4aa438e9df325eee1a47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeba07221d2c07971e307111c0d726d8') in 0.032842 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/SPRITES/Interface/Buttons/Grey/BACK/BACK_N2.png
-  artifactKey: Guid(e5a526d464a8a1c418a0d0486e17af95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SPRITES/Interface/Buttons/Grey/BACK/BACK_N2.png using Guid(e5a526d464a8a1c418a0d0486e17af95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16c92950528872895eae1e5d2ad6acc1') in 0.037242 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/SPRITES/Interface/Buttons/Red/BACK/BACK_N2.png
-  artifactKey: Guid(7626c7ca61968534c993a58ffb33e842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SPRITES/Interface/Buttons/Red/BACK/BACK_N2.png using Guid(7626c7ca61968534c993a58ffb33e842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdd40deaba9bb16c516f927731efedee') in 0.160866 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.568340 seconds.
-  path: Assets/SPRITES/Interface/Buttons/Orange/CREDITS/CREDITS_D1.png
-  artifactKey: Guid(bf02a1935a7762740aa1a3ee3cf2d0c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SPRITES/Interface/Buttons/Orange/CREDITS/CREDITS_D1.png using Guid(bf02a1935a7762740aa1a3ee3cf2d0c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65870bb1e39874696b0aa1c0cd224bd1') in 0.120324 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/SPRITES/Interface/Buttons/Grey/CREDITS/CREDITS_D1.png
-  artifactKey: Guid(9b2edb14052e31a498763126a58f33bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SPRITES/Interface/Buttons/Grey/CREDITS/CREDITS_D1.png using Guid(9b2edb14052e31a498763126a58f33bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07ecc1d93b205c0f00e4e77f10a7d943') in 0.035319 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/SPRITES/Interface/Buttons/Red/CREDITS/CREDITS_D1.png
-  artifactKey: Guid(4d4de543f3046704987b29595c052feb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SPRITES/Interface/Buttons/Red/CREDITS/CREDITS_D1.png using Guid(4d4de543f3046704987b29595c052feb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fa9782ffe3096f19beff8643add93e1') in 0.043282 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/SPRITES/Interface/Buttons/Orange/CREDITS/CREDITS_D2.png
-  artifactKey: Guid(a59ea0138dd75144aa4c72985fe12a6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SPRITES/Interface/Buttons/Orange/CREDITS/CREDITS_D2.png using Guid(a59ea0138dd75144aa4c72985fe12a6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ee8ac3fb85dbd386c75a1147baab999') in 0.073078 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/SPRITES/Interface/Buttons/Grey/CREDITS/CREDITS_D2.png
-  artifactKey: Guid(3323dc18db7f2d74d93ce1fd8f959d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SPRITES/Interface/Buttons/Grey/CREDITS/CREDITS_D2.png using Guid(3323dc18db7f2d74d93ce1fd8f959d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5e666e3a0779118bb2c8ca0e3683fde') in 0.054702 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 1.408955 seconds.
-  path: Assets/SPRITES/Interface/Buttons/Blue/CREDITS/CREDITS_L1.png
-  artifactKey: Guid(23969d46fd73b22449f7b2298c45475f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SPRITES/Interface/Buttons/Blue/CREDITS/CREDITS_L1.png using Guid(23969d46fd73b22449f7b2298c45475f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f1da8e36b379bf8ae2e0135e7c40c5a') in 0.031130 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.026684 seconds.
-  path: Assets/SPRITES/Interface/Buttons/Green/CREDITS/CREDITS_L1.png
-  artifactKey: Guid(f25f18bd232b60945ae869e4bd4ff5e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SPRITES/Interface/Buttons/Green/CREDITS/CREDITS_L1.png using Guid(f25f18bd232b60945ae869e4bd4ff5e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48dd74db5ab548594d0a4d80d0105171') in 0.043559 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/SPRITES/Interface/Buttons/Green/CREDITS/CREDITS_L2.png
-  artifactKey: Guid(bf8f77dc153b7c04391014d6b3c6b81c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SPRITES/Interface/Buttons/Green/CREDITS/CREDITS_L2.png using Guid(bf8f77dc153b7c04391014d6b3c6b81c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60471ba79d66334ec13ed0b17f0e98e2') in 0.038875 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.213314 seconds.
-  path: Assets/SPRITES/Interface/Buttons/Red/CREDITS/CREDITS_L2.png
-  artifactKey: Guid(2972eb52fbe10e2478bfbc88bced0569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SPRITES/Interface/Buttons/Red/CREDITS/CREDITS_L2.png using Guid(2972eb52fbe10e2478bfbc88bced0569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8145e98092e55dfb80928048a061a72d') in 0.050089 seconds 
+Start importing Assets/SPRITES/Effects/FlameB1.png using Guid(144114355ade845439ae7eea396a8ea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21feb89f52d0cf5abeb208bfafc6d71d') in 0.033679 seconds 
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000045 seconds.
-  path: Assets/SPRITES/Interface/Buttons/Blue/CREDITS/CREDITS_N1.png
-  artifactKey: Guid(82416da36bd69f04bb530391a46f5d9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  path: Assets/SPRITES/Effects/ImpactA_0.png
+  artifactKey: Guid(994b2f4defea2644b922dce34a05c3bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/SPRITES/Interface/Buttons/Blue/CREDITS/CREDITS_N1.png using Guid(82416da36bd69f04bb530391a46f5d9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c29541a6591c90a696c4dc7a98e45d92') in 0.034915 seconds 
+Start importing Assets/SPRITES/Effects/ImpactA_0.png using Guid(994b2f4defea2644b922dce34a05c3bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bde093be47efb2ab9995199450aecdc') in 0.030785 seconds 
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/SPRITES/Interface/Buttons/Grey/CREDITS/CREDITS_N1.png
-  artifactKey: Guid(f13698f742cb4af4dae33dc334cecc8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000049 seconds.
+  path: Assets/SPRITES/Effects/FlameB2.png
+  artifactKey: Guid(872ab33057f39af4cabf5f43fc0d3f95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/SPRITES/Interface/Buttons/Grey/CREDITS/CREDITS_N1.png using Guid(f13698f742cb4af4dae33dc334cecc8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dc78cf212fec34ab69f6905f1186d28') in 0.055123 seconds 
+Start importing Assets/SPRITES/Effects/FlameB2.png using Guid(872ab33057f39af4cabf5f43fc0d3f95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95b87b83a9db4b3ecc1ab5cb5820da61') in 0.027369 seconds 
 Number of asset objects unloaded after import = 3
 ========================================================================
-Received Import Request.
-  Time since last request: 0.219148 seconds.
-  path: Assets/SPRITES/Interface/Buttons/Orange/CREDITS/CREDITS_N2.png
-  artifactKey: Guid(1811717ddf20efa41a637539a6091189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SPRITES/Interface/Buttons/Orange/CREDITS/CREDITS_N2.png using Guid(1811717ddf20efa41a637539a6091189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e2346655c2813200b4e2995464dc869') in 0.042086 seconds 
-Number of asset objects unloaded after import = 3
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004675 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:33 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:48 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:208 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x0000d] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:33 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.132 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2133ms)
+		BeginReloadAssembly (199ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (48ms)
+		EndReloadAssembly (1794ms)
+			LoadAssemblies (122ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (314ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (64ms)
+			SetupLoadedEditorAssemblies (1027ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (26ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (95ms)
+				ProcessInitializeOnLoadAttributes (832ms)
+				ProcessInitializeOnLoadMethodAttributes (61ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.74 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3785 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (22.0 KB). Loaded Objects now: 4295.
+Memory consumption went from 149.5 MB to 149.5 MB.
+Total: 11.204500 ms (FindLiveObjects: 0.339700 ms CreateObjectMapping: 0.298800 ms MarkObjects: 10.530500 ms  DeleteObjects: 0.034300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.027126 seconds.
-  path: Assets/SPRITES/Interface/Buttons/Green/CREDITS/CREDITS_N2.png
-  artifactKey: Guid(34cc6827eba67a74e81113e484ee0a28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 2317.474011 seconds.
+  path: Assets/Prefabs/Enemy/Mine.prefab
+  artifactKey: Guid(31bfd896e4e577848bea1ee2f33da5ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/SPRITES/Interface/Buttons/Green/CREDITS/CREDITS_N2.png using Guid(34cc6827eba67a74e81113e484ee0a28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c5bf8a3f6327e8e4a0d002ba915471a') in 0.042899 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 1.461415 seconds.
-  path: Assets/SPRITES/Interface/Buttons/Green/DELETE/DELETE_D1.png
-  artifactKey: Guid(fae22c65211b39c439a691998abb357a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SPRITES/Interface/Buttons/Green/DELETE/DELETE_D1.png using Guid(fae22c65211b39c439a691998abb357a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c5cee9ab1e2a69806f30c2877de4fbd') in 0.050104 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/SPRITES/Interface/Buttons/Grey/DELETE/DELETE_D2.png
-  artifactKey: Guid(5ac766f61554c34448452c0c3b76de06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SPRITES/Interface/Buttons/Grey/DELETE/DELETE_D2.png using Guid(5ac766f61554c34448452c0c3b76de06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '493acbbf6f2ea6018e572a284f9eeab8') in 0.028695 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.971631 seconds.
-  path: Assets/SPRITES/Interface/Buttons/Green/DELETE/DELETE_D2.png
-  artifactKey: Guid(f8eb96bd458b702409d2498620025302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SPRITES/Interface/Buttons/Green/DELETE/DELETE_D2.png using Guid(f8eb96bd458b702409d2498620025302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99a017cf94981dae9daad4b9bbadebd9') in 0.029159 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/SPRITES/Interface/Buttons/Blue/DELETE/DELETE_D2.png
-  artifactKey: Guid(afa0f8a3e23e3ff40a8958d82c138841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SPRITES/Interface/Buttons/Blue/DELETE/DELETE_D2.png using Guid(afa0f8a3e23e3ff40a8958d82c138841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7c339a353c4215b05c8bd3ac95d6a54') in 0.029536 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.015940 seconds.
-  path: Assets/SPRITES/Interface/Buttons/Grey/DELETE/DELETE_L1.png
-  artifactKey: Guid(09a90ca8c7241514a88ec8273a51f1bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SPRITES/Interface/Buttons/Grey/DELETE/DELETE_L1.png using Guid(09a90ca8c7241514a88ec8273a51f1bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49d94e0e9ac3ae78c55c612daabcd7eb') in 0.027935 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/SPRITES/Interface/Buttons/Orange/DELETE/DELETE_L2.png
-  artifactKey: Guid(381eacb70156c02428c5597de88a74e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SPRITES/Interface/Buttons/Orange/DELETE/DELETE_L2.png using Guid(381eacb70156c02428c5597de88a74e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9b31f80c13e2d827195bde64a767f61') in 0.027617 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/SPRITES/Interface/Buttons/Grey/DELETE/DELETE_L2.png
-  artifactKey: Guid(46ae3918191fb104cbc4397575dc434a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SPRITES/Interface/Buttons/Grey/DELETE/DELETE_L2.png using Guid(46ae3918191fb104cbc4397575dc434a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22ee3f5f8c3c2235aa3d017a8cb29443') in 0.035030 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.274899 seconds.
-  path: Assets/SPRITES/Interface/Buttons/Grey/DELETE/DELETE_N1.png
-  artifactKey: Guid(bc253256e0558da44a69cbd522d47f8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SPRITES/Interface/Buttons/Grey/DELETE/DELETE_N1.png using Guid(bc253256e0558da44a69cbd522d47f8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '247f442bdac206a5fa7e62db1ef39dd7') in 0.033125 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/SPRITES/Interface/Buttons/Blue/DELETE/DELETE_N1.png
-  artifactKey: Guid(5032d0992b72ae8488a6a315fd909809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SPRITES/Interface/Buttons/Blue/DELETE/DELETE_N1.png using Guid(5032d0992b72ae8488a6a315fd909809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '778c78572e37153a5e921f2dc44ebd67') in 0.040436 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/SPRITES/Interface/Buttons/Red/DELETE/DELETE_N2.png
-  artifactKey: Guid(b3b13e7a6cba56946a2c42e2b749ff32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SPRITES/Interface/Buttons/Red/DELETE/DELETE_N2.png using Guid(b3b13e7a6cba56946a2c42e2b749ff32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59235be90345791cc1cd793d5aeadbc7') in 0.064035 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/SPRITES/Interface/Buttons/Green/DELETE/DELETE_N2.png
-  artifactKey: Guid(c9b35a3784119134a85cb643437a64af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SPRITES/Interface/Buttons/Green/DELETE/DELETE_N2.png using Guid(c9b35a3784119134a85cb643437a64af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13231f0b336da30f345290db0ab89083') in 0.186214 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.062364 seconds.
-  path: Assets/SPRITES/Interface/Buttons/Grey/FILE/FILE_D1.png
-  artifactKey: Guid(a61dcf5098d1a0749985152dc0e07f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SPRITES/Interface/Buttons/Grey/FILE/FILE_D1.png using Guid(a61dcf5098d1a0749985152dc0e07f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bdaf70096c6db629f9dd329da777b55') in 0.067272 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.169524 seconds.
-  path: Assets/SPRITES/Interface/Buttons/Green/FILE/FILE_D2.png
-  artifactKey: Guid(1a233b0725939714d8145d15d0a73b6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SPRITES/Interface/Buttons/Green/FILE/FILE_D2.png using Guid(1a233b0725939714d8145d15d0a73b6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3df02ce8dc215fb10c386d20f193c5a') in 0.309677 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/SPRITES/Interface/Buttons/Orange/FILE/FILE_L1.png
-  artifactKey: Guid(4ed63a90ffb2aa04c84c15beae0640e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SPRITES/Interface/Buttons/Orange/FILE/FILE_L1.png using Guid(4ed63a90ffb2aa04c84c15beae0640e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a612edcb3132d4aa2dfec1bb4d5172be') in 0.036389 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/SPRITES/Interface/Buttons/Red/FILE/FILE_L1.png
-  artifactKey: Guid(5e8feb75a59abfd4b8edba77d2b3fda0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SPRITES/Interface/Buttons/Red/FILE/FILE_L1.png using Guid(5e8feb75a59abfd4b8edba77d2b3fda0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b96fbdd3f92a9c9b6deedb5d9b29d65b') in 0.094922 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/SPRITES/Interface/Buttons/Grey/FILE/FILE_L2.png
-  artifactKey: Guid(8009e853971756c4980b89a754d37896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SPRITES/Interface/Buttons/Grey/FILE/FILE_L2.png using Guid(8009e853971756c4980b89a754d37896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f42fdfb0284f91fb4b6362f980129560') in 0.156665 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 2.980597 seconds.
-  path: Assets/SPRITES/Interface/Buttons/Green/MULTIPLAYER/MULTIPLAYER_D1.png
-  artifactKey: Guid(642ff2ed81fbadf4bbf792278bfb057c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SPRITES/Interface/Buttons/Green/MULTIPLAYER/MULTIPLAYER_D1.png using Guid(642ff2ed81fbadf4bbf792278bfb057c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bbd82488a1e528ebf02053d6b3643e6') in 0.244322 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/SPRITES/Interface/Buttons/Orange/MULTIPLAYER/MULTIPLAYER_D2.png
-  artifactKey: Guid(6ff88ffcfa44ce24787c9b0204e5cc41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SPRITES/Interface/Buttons/Orange/MULTIPLAYER/MULTIPLAYER_D2.png using Guid(6ff88ffcfa44ce24787c9b0204e5cc41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd232819d518d097b2873ef9bf09b6ffb') in 0.352089 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/SPRITES/Interface/Buttons/Blue/MULTIPLAYER/MULTIPLAYER_D1.png
-  artifactKey: Guid(3d5f18b55d310174fb97564d5528641d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SPRITES/Interface/Buttons/Blue/MULTIPLAYER/MULTIPLAYER_D1.png using Guid(3d5f18b55d310174fb97564d5528641d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6762088f75a8d6643a48ccb17e49cf34') in 0.027566 seconds 
-Number of asset objects unloaded after import = 3
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+Start importing Assets/Prefabs/Enemy/Mine.prefab using Guid(31bfd896e4e577848bea1ee2f33da5ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65f073ff6f48279af0f9795685a76021') in 0.853295 seconds 
+Number of asset objects unloaded after import = 48

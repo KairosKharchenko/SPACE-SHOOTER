@@ -15,7 +15,7 @@ D:/Users/Admin/Desktop/unity projects/Space Shooter/SPACE-SHOOTER/SPACE SHOOTER
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51174
+50512
 Successfully changed project path to: D:/Users/Admin/Desktop/unity projects/Space Shooter/SPACE-SHOOTER/SPACE SHOOTER
 D:/Users/Admin/Desktop/unity projects/Space Shooter/SPACE-SHOOTER/SPACE SHOOTER
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,12 +47,12 @@ D:/Users/Admin/Desktop/unity projects/Space Shooter/SPACE-SHOOTER/SPACE SHOOTER
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [1336] Host "[IP] 192.168.1.203 [Port] 0 [Flags] 2 [Guid] 2410654993 [EditorId] 2410654993 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-0TP2OUV) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [11208] Host "[IP] 192.168.1.203 [Port] 0 [Flags] 2 [Guid] 3045744180 [EditorId] 3045744180 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-0TP2OUV) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [1336] Host "[IP] 192.168.1.203 [Port] 0 [Flags] 2 [Guid] 2410654993 [EditorId] 2410654993 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-0TP2OUV) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [11208] Host "[IP] 192.168.1.203 [Port] 0 [Flags] 2 [Guid] 3045744180 [EditorId] 3045744180 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-0TP2OUV) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
-Refreshing native plugins compatible for Editor in 111.74 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 214.77 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.30f1 (b4360d7cdac4)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/Resources/UnitySubsystems
@@ -68,52 +68,52 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56388
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56564
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005680 seconds.
+Registered in 0.008240 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 297 ms
-Refreshing native plugins compatible for Editor in 126.94 ms, found 4 plugins.
+Android Extension - Scanning For ADB Devices 437 ms
+Refreshing native plugins compatible for Editor in 114.19 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.184 seconds
+- Completed reload, in  1.431 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1185ms)
-		BeginReloadAssembly (126ms)
+	ReloadAssembly (1431ms)
+		BeginReloadAssembly (123ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (946ms)
-			LoadAssemblies (122ms)
+		EndReloadAssembly (1186ms)
+			LoadAssemblies (121ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (144ms)
+			SetupTypeCache (171ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (33ms)
-			SetupLoadedEditorAssemblies (722ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (930ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (423ms)
+				InitializePlatformSupportModulesInManaged (568ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (127ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (111ms)
-				ProcessInitializeOnLoadMethodAttributes (59ms)
+				RefreshPlugins (114ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (153ms)
+				ProcessInitializeOnLoadMethodAttributes (93ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006040 seconds.
+Registered in 0.005187 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 99.57 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 119.34 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
@@ -136,43 +136,126 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 
 Mono: successfully reloaded assembly
-- Completed reload, in  2.156 seconds
+- Completed reload, in  2.684 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2157ms)
-		BeginReloadAssembly (134ms)
+	ReloadAssembly (2685ms)
+		BeginReloadAssembly (155ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (10ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (20ms)
-		EndReloadAssembly (1904ms)
-			LoadAssemblies (103ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (2404ms)
+			LoadAssemblies (116ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (283ms)
+			SetupTypeCache (339ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (74ms)
-			SetupLoadedEditorAssemblies (1387ms)
+			RebuildScriptCaches (75ms)
+			SetupLoadedEditorAssemblies (1808ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (22ms)
+				InitializePlatformSupportModulesInManaged (23ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (100ms)
-				BeforeProcessingInitializeOnLoad (108ms)
-				ProcessInitializeOnLoadAttributes (1096ms)
-				ProcessInitializeOnLoadMethodAttributes (54ms)
-				AfterProcessingInitializeOnLoad (7ms)
+				RefreshPlugins (119ms)
+				BeforeProcessingInitializeOnLoad (134ms)
+				ProcessInitializeOnLoadAttributes (1459ms)
+				ProcessInitializeOnLoadMethodAttributes (62ms)
+				AfterProcessingInitializeOnLoad (11ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.72 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 1.05 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3797 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 35 unused Assets / (46.4 KB). Loaded Objects now: 4262.
 Memory consumption went from 150.6 MB to 150.5 MB.
-Total: 13.033500 ms (FindLiveObjects: 0.309300 ms CreateObjectMapping: 0.300900 ms MarkObjects: 12.320400 ms  DeleteObjects: 0.101300 ms)
+Total: 17.240400 ms (FindLiveObjects: 0.335900 ms CreateObjectMapping: 0.270400 ms MarkObjects: 16.512400 ms  DeleteObjects: 0.119900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 780.851861 seconds.
+  path: Assets/Sript/Mine.asset
+  artifactKey: Guid(2c8395ad26c07d241a54d78f06c6741d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sript/Mine.asset using Guid(2c8395ad26c07d241a54d78f06c6741d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '910de868a59dcc9241698a2a967a6503') in 1.136643 seconds 
+Number of asset objects unloaded after import = 93
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006560 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.57 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:33 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:48 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:208 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x0000d] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:33 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.881 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2882ms)
+		BeginReloadAssembly (264ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (85ms)
+		EndReloadAssembly (2442ms)
+			LoadAssemblies (160ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (463ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (75ms)
+			SetupLoadedEditorAssemblies (1358ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (45ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (117ms)
+				ProcessInitializeOnLoadAttributes (1076ms)
+				ProcessInitializeOnLoadMethodAttributes (103ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (21ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.18 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3785 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (21.9 KB). Loaded Objects now: 4267.
+Memory consumption went from 149.4 MB to 149.3 MB.
+Total: 19.842300 ms (FindLiveObjects: 0.476200 ms CreateObjectMapping: 0.393700 ms MarkObjects: 18.924700 ms  DeleteObjects: 0.045800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -189,20 +272,28 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 3100.108009 seconds.
-  path: Assets/Sript/asteroid.asset
-  artifactKey: Guid(753f4445cfc15af46918f93bcf0f967f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 365.879539 seconds.
+  path: Assets/Prefabs/Explousion/MineExplosion.prefab
+  artifactKey: Guid(04a679bb400489549808ab4f3e6be2d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Sript/asteroid.asset using Guid(753f4445cfc15af46918f93bcf0f967f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4fc1be15216e52fc99ab45be44dfb5c') in 0.639660 seconds 
-Number of asset objects unloaded after import = 6
+Start importing Assets/Prefabs/Explousion/MineExplosion.prefab using Guid(04a679bb400489549808ab4f3e6be2d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5496889d50c8264c4c04be4a06b436ce') in 0.958949 seconds 
+Number of asset objects unloaded after import = 91
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Prefabs/Enemy/Mine.prefab
+  artifactKey: Guid(31bfd896e4e577848bea1ee2f33da5ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/Enemy/Mine.prefab using Guid(31bfd896e4e577848bea1ee2f33da5ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b96714eadc57f5f383188f355fd5192') in 0.152340 seconds 
+Number of asset objects unloaded after import = 135
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.007082 seconds.
+Registered in 0.004870 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.87 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 1.28 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Cannot connect to Unity Package Manager local server
@@ -224,40 +315,290 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 
 Mono: successfully reloaded assembly
-- Completed reload, in  2.482 seconds
+- Completed reload, in  2.161 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2483ms)
-		BeginReloadAssembly (248ms)
+	ReloadAssembly (2162ms)
+		BeginReloadAssembly (210ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (11ms)
+			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (78ms)
-		EndReloadAssembly (2090ms)
-			LoadAssemblies (135ms)
+			CreateAndSetChildDomain (65ms)
+		EndReloadAssembly (1837ms)
+			LoadAssemblies (132ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (375ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (72ms)
-			SetupLoadedEditorAssemblies (1179ms)
+			SetupTypeCache (292ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (1086ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (39ms)
+				InitializePlatformSupportModulesInManaged (33ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (91ms)
-				ProcessInitializeOnLoadAttributes (942ms)
-				ProcessInitializeOnLoadMethodAttributes (91ms)
-				AfterProcessingInitializeOnLoad (14ms)
+				BeforeProcessingInitializeOnLoad (82ms)
+				ProcessInitializeOnLoadAttributes (888ms)
+				ProcessInitializeOnLoadMethodAttributes (72ms)
+				AfterProcessingInitializeOnLoad (9ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (16ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.77 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 1.05 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3785 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (21.9 KB). Loaded Objects now: 4267.
-Memory consumption went from 149.3 MB to 149.3 MB.
-Total: 22.100200 ms (FindLiveObjects: 0.449100 ms CreateObjectMapping: 0.396900 ms MarkObjects: 21.215700 ms  DeleteObjects: 0.037200 ms)
+Unloading 26 unused Assets / (22.8 KB). Loaded Objects now: 4278.
+Memory consumption went from 149.6 MB to 149.6 MB.
+Total: 16.868600 ms (FindLiveObjects: 0.405200 ms CreateObjectMapping: 0.492900 ms MarkObjects: 15.890600 ms  DeleteObjects: 0.078400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 328.649426 seconds.
+  path: Assets/Prefabs/Shards/FlameB2.prefab
+  artifactKey: Guid(b8b54de1a5e16cc41b0b10ebe3632cac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/Shards/FlameB2.prefab using Guid(b8b54de1a5e16cc41b0b10ebe3632cac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69d8df49ec84c8f2922c5cfaaeaabd19') in 0.636676 seconds 
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 1754.973878 seconds.
+  path: Assets/Prefabs/Turrets/TurretA.prefab
+  artifactKey: Guid(689a5359f43ceea4abe625607dab3107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/Turrets/TurretA.prefab using Guid(689a5359f43ceea4abe625607dab3107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96bb5ed95ffbbfe1f55fd2c1c0305179') in 0.081650 seconds 
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 6.544459 seconds.
+  path: Assets/Prefabs/Turrets/TurretA.prefab
+  artifactKey: Guid(689a5359f43ceea4abe625607dab3107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/Turrets/TurretA.prefab using Guid(689a5359f43ceea4abe625607dab3107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c304f68a9c48aaaf65daf146b60160ad') in 0.021962 seconds 
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 40.618024 seconds.
+  path: Assets/Prefabs/Bullets/EnemyBulletA_0.prefab
+  artifactKey: Guid(7dc7b4c778982934cab8f246fc404653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/Bullets/EnemyBulletA_0.prefab using Guid(7dc7b4c778982934cab8f246fc404653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '525331376708e054353c7da0da3bcb4d') in 0.014059 seconds 
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 234.916761 seconds.
+  path: Assets/Prefabs/Bullets/EnemyBulletA_0.prefab
+  artifactKey: Guid(7dc7b4c778982934cab8f246fc404653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/Bullets/EnemyBulletA_0.prefab using Guid(7dc7b4c778982934cab8f246fc404653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8205a090e96ded487349c1f18a82fce') in 0.012638 seconds 
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 3.785168 seconds.
+  path: Assets/Prefabs/Bullets/EnemyBulletA_0.prefab
+  artifactKey: Guid(7dc7b4c778982934cab8f246fc404653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/Bullets/EnemyBulletA_0.prefab using Guid(7dc7b4c778982934cab8f246fc404653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd78f02bdaf50e09d2b08951cc5ffe91') in 0.014976 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 8.966388 seconds.
+  path: Assets/Prefabs/Bullets/EnemyBulletA_0.prefab
+  artifactKey: Guid(7dc7b4c778982934cab8f246fc404653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/Bullets/EnemyBulletA_0.prefab using Guid(7dc7b4c778982934cab8f246fc404653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b59c97fdb33884065e206df35931036d') in 0.012606 seconds 
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 6.482308 seconds.
+  path: Assets/Prefabs/Bullets/EnemyBulletA_0.prefab
+  artifactKey: Guid(7dc7b4c778982934cab8f246fc404653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/Bullets/EnemyBulletA_0.prefab using Guid(7dc7b4c778982934cab8f246fc404653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6de1f1a15380bfc4cfac601b18d06069') in 0.013664 seconds 
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 2.896729 seconds.
+  path: Assets/Prefabs/Bullets/EnemyBulletA_0.prefab
+  artifactKey: Guid(7dc7b4c778982934cab8f246fc404653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/Bullets/EnemyBulletA_0.prefab using Guid(7dc7b4c778982934cab8f246fc404653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '340637da1c7f40fe7a238c6d80341d0a') in 0.013355 seconds 
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 4.595102 seconds.
+  path: Assets/Prefabs/Bullets/EnemyBulletA_0.prefab
+  artifactKey: Guid(7dc7b4c778982934cab8f246fc404653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/Bullets/EnemyBulletA_0.prefab using Guid(7dc7b4c778982934cab8f246fc404653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86917b7ad1a4defdeb791eecba092962') in 0.012953 seconds 
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 61.322185 seconds.
+  path: Assets/Prefabs/Bullets/EnemyBulletA_0.prefab
+  artifactKey: Guid(7dc7b4c778982934cab8f246fc404653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/Bullets/EnemyBulletA_0.prefab using Guid(7dc7b4c778982934cab8f246fc404653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6db5f0eef74e1e6235c6658b70cb11f5') in 0.017619 seconds 
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008153 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.06 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:33 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:48 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:208 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x0000d] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:33 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.844 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2845ms)
+		BeginReloadAssembly (291ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (16ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (91ms)
+		EndReloadAssembly (2369ms)
+			LoadAssemblies (182ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (439ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (78ms)
+			SetupLoadedEditorAssemblies (1248ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (50ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (144ms)
+				ProcessInitializeOnLoadAttributes (964ms)
+				ProcessInitializeOnLoadMethodAttributes (78ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.50 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3785 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (22.0 KB). Loaded Objects now: 4282.
+Memory consumption went from 149.7 MB to 149.6 MB.
+Total: 18.712300 ms (FindLiveObjects: 0.482800 ms CreateObjectMapping: 0.420900 ms MarkObjects: 17.765800 ms  DeleteObjects: 0.040500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 62.204063 seconds.
+  path: Assets/Prefabs/Turrets/TurretA.prefab
+  artifactKey: Guid(689a5359f43ceea4abe625607dab3107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/Turrets/TurretA.prefab using Guid(689a5359f43ceea4abe625607dab3107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '770135b4556d636e3d1feb29b53aa41b') in 0.877332 seconds 
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005573 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.22 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:33 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:48 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:208 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x0000d] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:33 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.884 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3885ms)
+		BeginReloadAssembly (423ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (93ms)
+		EndReloadAssembly (3227ms)
+			LoadAssemblies (315ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (988ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (74ms)
+			SetupLoadedEditorAssemblies (1379ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (41ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (121ms)
+				ProcessInitializeOnLoadAttributes (1129ms)
+				ProcessInitializeOnLoadMethodAttributes (75ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.76 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3785 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (21.9 KB). Loaded Objects now: 4286.
+Memory consumption went from 149.7 MB to 149.7 MB.
+Total: 17.941800 ms (FindLiveObjects: 0.348100 ms CreateObjectMapping: 0.301500 ms MarkObjects: 17.250300 ms  DeleteObjects: 0.040800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -275,11 +616,11 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004460 seconds.
+Registered in 0.004757 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.71 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 0.79 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Cannot connect to Unity Package Manager local server
@@ -301,40 +642,40 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 
 Mono: successfully reloaded assembly
-- Completed reload, in  2.172 seconds
+- Completed reload, in  2.117 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2173ms)
-		BeginReloadAssembly (211ms)
+	ReloadAssembly (2118ms)
+		BeginReloadAssembly (222ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (10ms)
+			DisableScriptedObjects (13ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (52ms)
-		EndReloadAssembly (1813ms)
-			LoadAssemblies (126ms)
+			CreateAndSetChildDomain (51ms)
+		EndReloadAssembly (1771ms)
+			LoadAssemblies (132ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (319ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (58ms)
-			SetupLoadedEditorAssemblies (1048ms)
+			SetupTypeCache (303ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (76ms)
+			SetupLoadedEditorAssemblies (976ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (24ms)
+				InitializePlatformSupportModulesInManaged (29ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (79ms)
-				ProcessInitializeOnLoadAttributes (872ms)
-				ProcessInitializeOnLoadMethodAttributes (64ms)
+				BeforeProcessingInitializeOnLoad (81ms)
+				ProcessInitializeOnLoadAttributes (800ms)
+				ProcessInitializeOnLoadMethodAttributes (57ms)
 				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.96 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 0.76 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3785 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (21.9 KB). Loaded Objects now: 4271.
-Memory consumption went from 149.4 MB to 149.3 MB.
-Total: 15.275900 ms (FindLiveObjects: 0.545000 ms CreateObjectMapping: 0.381400 ms MarkObjects: 14.303300 ms  DeleteObjects: 0.043800 ms)
+Unloading 24 unused Assets / (22.0 KB). Loaded Objects now: 4290.
+Memory consumption went from 149.7 MB to 149.7 MB.
+Total: 13.009900 ms (FindLiveObjects: 0.320600 ms CreateObjectMapping: 0.240000 ms MarkObjects: 12.412300 ms  DeleteObjects: 0.035400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -352,11 +693,11 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006208 seconds.
+Registered in 0.007432 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.43 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 0.80 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Cannot connect to Unity Package Manager local server
@@ -378,117 +719,117 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 
 Mono: successfully reloaded assembly
-- Completed reload, in  2.663 seconds
+- Completed reload, in  2.412 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2664ms)
-		BeginReloadAssembly (275ms)
+	ReloadAssembly (2413ms)
+		BeginReloadAssembly (224ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (17ms)
+			DisableScriptedObjects (10ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (70ms)
-		EndReloadAssembly (2209ms)
-			LoadAssemblies (172ms)
+			CreateAndSetChildDomain (50ms)
+		EndReloadAssembly (2048ms)
+			LoadAssemblies (152ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (461ms)
+			SetupTypeCache (364ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (94ms)
-			SetupLoadedEditorAssemblies (1175ms)
+			RebuildScriptCaches (69ms)
+			SetupLoadedEditorAssemblies (1118ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (31ms)
+				InitializePlatformSupportModulesInManaged (27ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (111ms)
-				ProcessInitializeOnLoadAttributes (938ms)
-				ProcessInitializeOnLoadMethodAttributes (83ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (108ms)
+				ProcessInitializeOnLoadAttributes (902ms)
+				ProcessInitializeOnLoadMethodAttributes (69ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.03 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3785 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (22.0 KB). Loaded Objects now: 4294.
+Memory consumption went from 149.7 MB to 149.7 MB.
+Total: 23.174300 ms (FindLiveObjects: 1.010900 ms CreateObjectMapping: 0.650400 ms MarkObjects: 21.470500 ms  DeleteObjects: 0.039900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007050 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.04 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:33 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:48 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:208 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x0000d] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:33 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.891 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2892ms)
+		BeginReloadAssembly (302ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (15ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (66ms)
+		EndReloadAssembly (2397ms)
+			LoadAssemblies (187ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (506ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (85ms)
+			SetupLoadedEditorAssemblies (1219ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (34ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (110ms)
+				ProcessInitializeOnLoadAttributes (990ms)
+				ProcessInitializeOnLoadMethodAttributes (75ms)
 				AfterProcessingInitializeOnLoad (10ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (12ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.30 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 1.33 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3785 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (22.0 KB). Loaded Objects now: 4275.
-Memory consumption went from 149.4 MB to 149.3 MB.
-Total: 20.431700 ms (FindLiveObjects: 0.427800 ms CreateObjectMapping: 0.376300 ms MarkObjects: 19.588900 ms  DeleteObjects: 0.036700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006929 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.15 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-System.Exception: Error! Visual Scripting: couldn't find visual scripting package
-  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
-  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
-  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:33 
-  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:48 
-  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:208 
-  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32 
-  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76 
-  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114 
-  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x0000d] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:33 
-  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-Mono: successfully reloaded assembly
-- Completed reload, in  4.241 seconds
-Domain Reload Profiling:
-	ReloadAssembly (4242ms)
-		BeginReloadAssembly (488ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (14ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (85ms)
-		EndReloadAssembly (3514ms)
-			LoadAssemblies (363ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1077ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (94ms)
-			SetupLoadedEditorAssemblies (1503ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (37ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (127ms)
-				ProcessInitializeOnLoadAttributes (1241ms)
-				ProcessInitializeOnLoadMethodAttributes (83ms)
-				AfterProcessingInitializeOnLoad (12ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (17ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.40 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3785 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (21.9 KB). Loaded Objects now: 4279.
-Memory consumption went from 149.4 MB to 149.4 MB.
-Total: 23.049600 ms (FindLiveObjects: 0.511500 ms CreateObjectMapping: 0.537000 ms MarkObjects: 21.950300 ms  DeleteObjects: 0.049100 ms)
+Unloading 24 unused Assets / (22.0 KB). Loaded Objects now: 4298.
+Memory consumption went from 149.7 MB to 149.7 MB.
+Total: 22.644200 ms (FindLiveObjects: 0.499000 ms CreateObjectMapping: 0.441100 ms MarkObjects: 21.650300 ms  DeleteObjects: 0.051600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -505,192 +846,43 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 2006.828234 seconds.
-  path: Assets/Prefabs/Enemy/Aster_0.prefab
-  artifactKey: Guid(85812f4a09eb3c643ad9bec0d4b19861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 410.473591 seconds.
+  path: Assets/Sript/EnemyTurretPicker.asset
+  artifactKey: Guid(ed0db198320ccbc4797d03e0beeac35f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Prefabs/Enemy/Aster_0.prefab using Guid(85812f4a09eb3c643ad9bec0d4b19861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '223b4b6235096e1425e279b498850a72') in 0.913946 seconds 
-Number of asset objects unloaded after import = 32
+Start importing Assets/Sript/EnemyTurretPicker.asset using Guid(ed0db198320ccbc4797d03e0beeac35f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbecc15d7111ba4a22a756044d6bf10a') in 0.049292 seconds 
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 11.063464 seconds.
-  path: Assets/Prefabs/Bullets/BulletA_1.prefab
-  artifactKey: Guid(37fe12d00002e43488194292591b2cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 73.564095 seconds.
+  path: Assets/SPRITES/Interface/Health/HPEnemy.png
+  artifactKey: Guid(49d2ad92c1092bc4cad265cae1ae93c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Prefabs/Bullets/BulletA_1.prefab using Guid(37fe12d00002e43488194292591b2cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cc926e8cc7db88312378789500d3610') in 0.067896 seconds 
-Number of asset objects unloaded after import = 15
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006748 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.08 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-System.Exception: Error! Visual Scripting: couldn't find visual scripting package
-  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
-  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
-  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:33 
-  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:48 
-  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:208 
-  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32 
-  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76 
-  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114 
-  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x0000d] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:33 
-  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in D:\Users\Admin\Desktop\unity projects\Space Shooter\SPACE-SHOOTER\SPACE SHOOTER\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-Mono: successfully reloaded assembly
-- Completed reload, in  3.089 seconds
-Domain Reload Profiling:
-	ReloadAssembly (3094ms)
-		BeginReloadAssembly (306ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (14ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (103ms)
-		EndReloadAssembly (2575ms)
-			LoadAssemblies (184ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (491ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (140ms)
-			SetupLoadedEditorAssemblies (1269ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (41ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (124ms)
-				ProcessInitializeOnLoadAttributes (1016ms)
-				ProcessInitializeOnLoadMethodAttributes (76ms)
-				AfterProcessingInitializeOnLoad (10ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (18ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.69 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3785 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 26 unused Assets / (22.8 KB). Loaded Objects now: 4289.
-Memory consumption went from 149.6 MB to 149.5 MB.
-Total: 17.448400 ms (FindLiveObjects: 0.414700 ms CreateObjectMapping: 0.404800 ms MarkObjects: 16.537200 ms  DeleteObjects: 0.089400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 662.503293 seconds.
-  path: ProjectSettings/TagManager.asset
-  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f74b9f0782f3ffe8a654b2b60a9f33c') in 0.030726 seconds 
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 82.599050 seconds.
-  path: Assets/Prefabs/Bullets/BulletA_1.prefab
-  artifactKey: Guid(37fe12d00002e43488194292591b2cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Prefabs/Bullets/BulletA_1.prefab using Guid(37fe12d00002e43488194292591b2cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b96b0b146f57844c042d75bc9f5a2ac2') in 0.797861 seconds 
-Number of asset objects unloaded after import = 15
-========================================================================
-Received Import Request.
-  Time since last request: 22.739925 seconds.
-  path: Assets/Prefabs/Enemy/Aster_0.prefab
-  artifactKey: Guid(85812f4a09eb3c643ad9bec0d4b19861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Prefabs/Enemy/Aster_0.prefab using Guid(85812f4a09eb3c643ad9bec0d4b19861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4c9a915fe8899b085502a80585b4d67') in 0.200653 seconds 
-Number of asset objects unloaded after import = 32
-========================================================================
-Received Import Request.
-  Time since last request: 774.241677 seconds.
-  path: Assets/SPRITES/Effects/ImpactA_3.png
-  artifactKey: Guid(5d8b93cf0ecc79b4fb4a31518a772ba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SPRITES/Effects/ImpactA_3.png using Guid(5d8b93cf0ecc79b4fb4a31518a772ba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '627d2c6d2b42dd28e169ec5ecf40188b') in 0.192466 seconds 
+Start importing Assets/SPRITES/Interface/Health/HPEnemy.png using Guid(49d2ad92c1092bc4cad265cae1ae93c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '400b0f759188fad2df5ddc507f1fe3ab') in 0.504509 seconds 
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/SPRITES/Effects/MuzzleF_0.png
-  artifactKey: Guid(db4c16f0b733d2041a128e0c470acf91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 5.161396 seconds.
+  path: Assets/SPRITES/Interface/Icons/IconA.png
+  artifactKey: Guid(de9fd0078d8da934fb9e6a70bcd05455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/SPRITES/Effects/MuzzleF_0.png using Guid(db4c16f0b733d2041a128e0c470acf91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3235f0d9bd4a026598d8bdc4d503f1c4') in 0.045084 seconds 
+Start importing Assets/SPRITES/Interface/Icons/IconA.png using Guid(de9fd0078d8da934fb9e6a70bcd05455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ec9734603b93d6307eb23e700168b52') in 0.120994 seconds 
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/SPRITES/Effects/MuzzleC_0.png
-  artifactKey: Guid(66ec48e492ed02c4a96ee6d687c47b67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000033 seconds.
+  path: Assets/SPRITES/Interface/Icons/IconE.png
+  artifactKey: Guid(3988e97406b5afd408540c3626e367fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/SPRITES/Effects/MuzzleC_0.png using Guid(66ec48e492ed02c4a96ee6d687c47b67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b08527112199c305f214251dc3684d15') in 0.053404 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/SPRITES/Effects/ImpactA_5.png
-  artifactKey: Guid(f0784634f111a0d4fa5d7fbe5b7961e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SPRITES/Effects/ImpactA_5.png using Guid(f0784634f111a0d4fa5d7fbe5b7961e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ab237e5d365ba88baae2c1bd15919d0') in 0.102681 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/SPRITES/Effects/MuzzleF_1.png
-  artifactKey: Guid(038468946a540934c81b1177030503ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SPRITES/Effects/MuzzleF_1.png using Guid(038468946a540934c81b1177030503ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7360ebef75668b3e1b15c15d1c170e26') in 0.062059 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000061 seconds.
-  path: Assets/SPRITES/Effects/MuzzleA_0.png
-  artifactKey: Guid(83788599d0cb0d043ac70f9cef54a0c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SPRITES/Effects/MuzzleA_0.png using Guid(83788599d0cb0d043ac70f9cef54a0c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6304e0c63473de1b5194c4894458589f') in 0.060573 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 12.316621 seconds.
-  path: Assets/SPRITES/Effects/FlameA2.png
-  artifactKey: Guid(3228b0ea33d8ad94996ea98a4b71a1c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SPRITES/Effects/FlameA2.png using Guid(3228b0ea33d8ad94996ea98a4b71a1c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49b229dfcd52acbd28cb017ddbb124a1') in 0.031773 seconds 
+Start importing Assets/SPRITES/Interface/Icons/IconE.png using Guid(3988e97406b5afd408540c3626e367fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd06b3794585884932ee091b77cfcfeeb') in 0.038315 seconds 
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000040 seconds.
-  path: Assets/SPRITES/Effects/ImpactA_2.png
-  artifactKey: Guid(1b13039cf900bb641a231ad12b65c20e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  path: Assets/SPRITES/Interface/Icons/IconD.png
+  artifactKey: Guid(83d3e5beb36fab048a94cbad9440f643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/SPRITES/Effects/ImpactA_2.png using Guid(1b13039cf900bb641a231ad12b65c20e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0196f187dbb67615a0856a21afdad03') in 0.028370 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/SPRITES/Effects/ImpactA_1.png
-  artifactKey: Guid(31cac4b422437f2408fb74a916e215ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SPRITES/Effects/ImpactA_1.png using Guid(31cac4b422437f2408fb74a916e215ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4313ba85ad57dcf99f89be48637dd84') in 0.030350 seconds 
+Start importing Assets/SPRITES/Interface/Icons/IconD.png using Guid(83d3e5beb36fab048a94cbad9440f643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aab055e8042ddda529c69e74d285c0e') in 0.048538 seconds 
 Number of asset objects unloaded after import = 3
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server

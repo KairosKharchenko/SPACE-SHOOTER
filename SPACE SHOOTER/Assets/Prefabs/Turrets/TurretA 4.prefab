@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 7689976672248000897}
   - component: {fileID: 3509575396744520620}
   m_Layer: 0
-  m_Name: TurretA
+  m_Name: TurretA 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -75,7 +75,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: a2d315f795a054a4d983c310f2c6a69e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 46e387183c37080419d851456adfd647, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -101,11 +101,9 @@ MonoBehaviour:
   _data:
     _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Fiarerate","value":{"$content":0.2,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Bullet","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"EnemyBullet","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 2133589941194583232, guid: 37fe12d00002e43488194292591b2cce, type: 3}
-    - {fileID: 1453822620610894287, guid: 7dc7b4c778982934cab8f246fc404653, type: 3}
 --- !u!114 &3509575396744520620
 MonoBehaviour:
   m_ObjectHideFlags: 0

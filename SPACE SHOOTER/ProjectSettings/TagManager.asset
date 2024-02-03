@@ -8,6 +8,7 @@ TagManager:
   - Shard
   - EnemyShip
   - EnemyBullet
+  - BonusWapon
   layers:
   - Default
   - TransparentFX
